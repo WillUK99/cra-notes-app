@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cra-notes-app/static/css/main.34eb66da.chunk.css",
+    "main.js": "/cra-notes-app/static/js/main.90067bd4.chunk.js",
+    "main.js.map": "/cra-notes-app/static/js/main.90067bd4.chunk.js.map",
+    "runtime-main.js": "/cra-notes-app/static/js/runtime-main.46705d5c.js",
+    "runtime-main.js.map": "/cra-notes-app/static/js/runtime-main.46705d5c.js.map",
+    "static/js/2.cb12cc88.chunk.js": "/cra-notes-app/static/js/2.cb12cc88.chunk.js",
+    "static/js/2.cb12cc88.chunk.js.map": "/cra-notes-app/static/js/2.cb12cc88.chunk.js.map",
+    "static/js/3.b55a4021.chunk.js": "/cra-notes-app/static/js/3.b55a4021.chunk.js",
+    "static/js/3.b55a4021.chunk.js.map": "/cra-notes-app/static/js/3.b55a4021.chunk.js.map",
+    "index.html": "/cra-notes-app/index.html",
+    "static/css/main.34eb66da.chunk.css.map": "/cra-notes-app/static/css/main.34eb66da.chunk.css.map",
+    "static/js/2.cb12cc88.chunk.js.LICENSE.txt": "/cra-notes-app/static/js/2.cb12cc88.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46705d5c.js",
+    "static/js/2.cb12cc88.chunk.js",
+    "static/css/main.34eb66da.chunk.css",
+    "static/js/main.90067bd4.chunk.js"
+  ]
+}
