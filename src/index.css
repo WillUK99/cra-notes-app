@@ -5,9 +5,120 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(241, 247, 252);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode {
+  background-color: rgb(45, 4, 88);
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  padding: 0.5rem 1rem;
+  border-radius: 9999999px;
+  margin: 2rem 0;
+}
+
+.search-box input {
+  background: none;
+  border: none;
+  
+}
+
+.search-box input:focus {
+  outline: none;
+}
+
+.notes{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+.note.new {
+  background-color: rgb(123, 251, 255);
+  
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background: none;
+  transition: all 0.2s ease;
+}
+
+textarea:focus {
+  outline: none;
+  transform: scale(1.02);
+  transition: all 0.2s ease;
+}
+
+.save {
+  background-color: #d3a3ff;
+  border: 2px solid #c383ff;
+  border-radius: 99999px;
+  box-shadow: 2px 2px 1px #c383ff;
+  padding: 2px 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.save:hover {
+  background-color: #dfbfff;
+  transform: translateY(1.5px);
+  transition: all 0.2s ease;
+}
+
+.note {
+  background-color: #d3a3ff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+
+
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note-delete {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.note-delete:hover {
+  color: red;
+  transform: scale(1.1) translateY(-2px);
+  transition: all 0.2s ease;
 }
